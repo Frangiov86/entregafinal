@@ -1716,32 +1716,6 @@ h1 {
     text-align: center; } }
 
 @media (max-width: 1024px) {
-  .imagenanime1 {
-    width: 300px;
-    margin-left: 50px; }
-  .imagenanime1:hover {
-    transform: scale(110%);
-    transition: 0.3s; }
-  .imagencar1 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagencar2 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagencar3 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagen1993-2 {
-    margin-left: 55px;
-    width: 75%; }
-  .pi93 {
-    margin-left: 30px; }
-  .portada {
-    height: 220px;
-    margin-right: 10px; }
   div p {
     font-weight: bold;
     text-decoration: none;
@@ -1802,55 +1776,6 @@ h1 {
   .h2text {
     font-size: 18px;
     margin-top: 20px; } }
-
-@media (max-width: 991px) {
-  .cuadroimagenesgrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    font-family: sans-serif; }
-  .resumeneventos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; }
-  .imagen1993 {
-    width: 350px; }
-  .imagen1993:hover {
-    transform: scale(110%);
-    transition: 0.3s; }
-  .flex-container {
-    display: flex;
-    border: black;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; }
-  .imagen1993-2 {
-    width: 350px;
-    border: solid; }
-  .imagenanime1 {
-    width: 400px;
-    margin-left: 80px; }
-  .imagenanime1:hover {
-    transform: scale(110%);
-    transition: 0.3s; }
-  .imagencar1 {
-    width: 50%;
-    height: 50%;
-    margin-left: 300px; }
-  .imagencar2 {
-    width: 50%;
-    height: 50%;
-    margin-left: 300px; }
-  .imagencar3 {
-    width: 50%;
-    height: 50%;
-    margin-left: 300px; }
-    .imagencar3 .imagen2 {
-      width: 350px;
-      height: 350px;
-      border: solid; } }
 
 @media (max-width: 769px) {
   .texto p {
@@ -1988,31 +1913,6 @@ h1 {
     margin-bottom: 20px; } }
 
 @media (max-width: 376px) {
-  .imagencar1 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagencar2 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagencar3 {
-    width: 50%;
-    height: 50%;
-    margin-left: 100px; }
-  .imagen1993-2 {
-    margin-left: 55px;
-    width: 70%; }
-  .pi93 {
-    margin-left: 30px; }
-  .portada {
-    height: 200px;
-    margin-right: 10px; }
-  .imagenanime1 {
-    width: 250px;
-    margin-left: 50px;
-    margin-top: 5px;
-    margin-bottom: 15px; }
   div p {
     font-weight: bold;
     text-decoration: none;
