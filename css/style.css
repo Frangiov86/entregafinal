@@ -1037,41 +1037,6 @@ h5 {
 .tituloprimerencuentro {
   text-align: center; }
 
-.cuadroimagenesgrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  font-family: sans-serif; }
-
-/* Formato Grid flex */
-.cuadroimagenesgrid div {
-  border-radius: 15px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
-  padding: 10px;
-  grid-auto-rows: auto; }
-
-.cuadroimagenesgrid div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.button {
-  padding: 5px 15px;
-  margin: 15px;
-  border-radius: 15px;
-  background-color: #39145c;
-  color: white;
-  font-family: sans-serif; }
-
-.parrafoprimerencuentro {
-  margin-left: 50px; }
-
 h2 {
   text-align: center; }
 
@@ -1553,6 +1518,132 @@ h1 {
   .image-container13:hover .overlay {
     opacity: 1; }
   .image-container13:target img {
+    transform: scale(1.1); } }
+
+@media screen and (max-width: 321px) {
+  .image-container14 {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */ }
+  .image-container14 img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    margin-top: 20px; }
+  .image-container14 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: 22px;
+    font-size: 12px;
+    margin-bottom: -6px; }
+  .image-container14:hover .overlay {
+    opacity: 1; }
+  .image-container14:target img {
+    transform: scale(1.1); }
+  .image-container15 {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */ }
+  .image-container15 img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    margin-top: 20px; }
+  .image-container15 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-bottom: 3px; }
+  .image-container15:hover .overlay {
+    opacity: 1; }
+  .image-container15:target img {
+    transform: scale(1.1); }
+  .image-container16 {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */ }
+  .image-container16 img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    margin-top: 20px; }
+  .image-container16 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-bottom: -3px; }
+  .image-container16:hover .overlay {
+    opacity: 1; }
+  .image-container16:target img {
+    transform: scale(1.1); }
+  .image-container17 {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */ }
+  .image-container17 img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    margin-top: 20px; }
+  .image-container17 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-bottom: -3px; }
+  .image-container17:hover .overlay {
+    opacity: 1; }
+  .image-container17:target img {
     transform: scale(1.1); } }
 
 .portada {
