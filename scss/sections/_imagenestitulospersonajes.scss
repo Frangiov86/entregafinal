@@ -44,22 +44,16 @@
 
 .contenedor {
     text-align: center;
-    /* Centra el texto horizontalmente */
+
 }
 
 .contenedor h1 {
     font-size: 2em;
-    /* Tamaño de fuente */
     margin: 0;
-    /* Elimina el margen predeterminado del párrafo */
     padding: 10px;
-    /* Agrega un poco de espacio alrededor del texto */
     width: 80%;
-    /* Define el ancho máximo del contenedor */
     max-width: 600px;
-    /* Define el ancho máximo del contenedor */
     margin: 0 auto;
-    /* Centra el contenedor horizontalmente */
 }
 
 
@@ -96,20 +90,14 @@
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-    /* Incluye el padding en el ancho total de la columna */
 }
 
 iframe {
     width: 100%;
-    /* Establece el ancho al 100% del contenedor */
     height: auto;
-    /* Hace que la altura se ajuste automáticamente manteniendo la relación de aspecto */
     max-width: 800px;
-    /* Establece un máximo ancho para el video */
     margin: 0 auto;
-    /* Centra el video horizontalmente */
     display: block;
-    /* Asegura que el iframe se muestre como un bloque */
 }
 
 h5 {
@@ -141,9 +129,7 @@ h5 {
 .image-container {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
-    /* Espacio entre filas */
 
     img {
         width: 100%;
@@ -177,14 +163,10 @@ h5 {
     transform: scale(1.1);
 }
 
-// ----------------------------------------//
-
 .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
-    /* Espacio entre filas */
 
     img {
         width: 100%;
@@ -226,7 +208,6 @@ h5 {
 @media screen and (max-width: 1441px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
     }
 
 
@@ -257,9 +238,7 @@ h5 {
     .image-container {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 30px;
-        /* Espacio entre filas */
 
 
         img {
@@ -298,9 +277,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 380px;
@@ -360,9 +337,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 245px;
@@ -407,9 +382,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 350px;
@@ -458,7 +431,6 @@ h5 {
 @media screen and (max-width: 1024px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
 
         img {
             width: 50%;
@@ -507,9 +479,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 550px;
@@ -553,9 +523,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -599,9 +567,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 650px;
@@ -654,8 +620,6 @@ h5 {
 @media screen and (max-width: 768px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
-
 
         img {
             width: 50%;
@@ -687,7 +651,6 @@ h5 {
 
     .contenedor p {
         font-size: 1.5em;
-        /* Tamaño de fuente más pequeño para pantallas más pequeñas */
 
     }
 
@@ -720,9 +683,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 450px;
@@ -774,9 +735,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 250px;
@@ -821,9 +780,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 500px;
@@ -877,8 +834,7 @@ h5 {
 @media screen and (max-width: 426px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
-
+ 
         img {
             width: 50%;
             height: auto;
@@ -914,9 +870,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 250px;
@@ -976,9 +930,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -1023,9 +975,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 250px;
@@ -1072,7 +1022,6 @@ h5 {
 @media screen and (max-width: 376px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
 
         img {
             width: 50%;
@@ -1110,9 +1059,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -1181,9 +1128,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -1228,9 +1173,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
         img {
             width: 250px;
             height: auto;
@@ -1280,9 +1223,7 @@ h5 {
 @media screen and (max-width: 321px) {
     .image-container {
         width: 100%;
-        /* Una imagen por fila en dispositivos móviles */
     }
-
 
     .image-container img {
         width: 50%;
@@ -1312,9 +1253,7 @@ h5 {
     .image-container3 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -1388,9 +1327,7 @@ h5 {
     .image-container5 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 200px;
@@ -1434,9 +1371,7 @@ h5 {
     .image-container6 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
 
         img {
             width: 250px;
@@ -1474,8 +1409,6 @@ h5 {
     .image-container6:target img {
         transform: scale(1.1);
     }
-
-
 
 
 }

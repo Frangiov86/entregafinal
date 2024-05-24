@@ -22,9 +22,7 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container8 img {
@@ -65,9 +63,7 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container9 img {
@@ -106,9 +102,7 @@
     .image-container10 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
     
     .image-container10 img {
@@ -160,9 +154,7 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container8 img {
@@ -203,9 +195,7 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container9 img {
@@ -244,9 +234,7 @@
     .image-container10 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
     
     .image-container10 img {
@@ -294,9 +282,8 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
+        
     }
 
     .image-container8 img {
@@ -337,9 +324,8 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
+       
     }
 
     .image-container9 img {
@@ -377,16 +363,14 @@
 
     .grid-container {
         display: grid;
-        grid-template-rows: auto auto; /* Dos filas automáticas */
-        gap: 10px; /* Espacio entre elementos */
+        grid-template-rows: auto auto; 
+        gap: 10px; 
       }
 
       .image-container10 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
     
     .image-container10 img {
@@ -436,9 +420,7 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container8 img {
@@ -479,9 +461,7 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container9 img {
@@ -520,9 +500,7 @@
     .image-container10 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
     
     .image-container10 img {
@@ -578,9 +556,7 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container8 img {
@@ -620,9 +596,7 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container9 img {
@@ -662,9 +636,7 @@
     .image-container10 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
     
     .image-container10 img {
@@ -715,9 +687,7 @@
     .image-container8 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container8 img {
@@ -757,9 +727,7 @@
     .image-container9 {
         position: relative;
         width: calc(33.33% - 10px);
-        /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
-        /* Espacio entre filas */
     }
 
     .image-container9 img {
@@ -800,9 +768,7 @@
 .image-container10 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
-    /* Espacio entre filas */
 }
 
 .image-container10 img {

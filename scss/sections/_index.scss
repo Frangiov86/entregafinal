@@ -9,38 +9,38 @@
 
 header {
     background-image: linear-gradient(to right, red, black);
-    padding: 20px 0; /* Espacio interno alrededor del encabezado */
+    padding: 20px 0; 
 }
 
 .container1 {
-    max-width: 1440px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor */
-    text-align: center; /* Centra horizontalmente el contenido dentro del contenedor */
+    max-width: 1440px; 
+    margin: 0 auto; 
+    text-align: center; 
 }
 
 .header-img {
-    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100%; 
+    height: auto; 
     margin-top: 20px;
     
 }
 
 .boton-flotante {
     position: fixed;
-    bottom: 20px; /* Distancia desde el borde inferior */
-    right: 20px; /* Distancia desde el borde derecho */
-    background: linear-gradient(to right, #c0c0c0, #ffffff); /* Gradiente de gris plateado a blanco de izquierda a derecha */
-    color: #000000; /* Color del texto negro */
-    font-family: Arial, sans-serif; /* Fuente sin serifa */
-    font-size: 16px; /* Tamaño de fuente */
-    padding: 10px 20px; /* Espacio interno del botón */
-    border-radius: 20px; /* Bordes redondeados */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    transition: background 0.3s ease; /* Efecto de transición suave */
+    bottom: 20px; 
+    right: 20px; 
+    background: linear-gradient(to right, #c0c0c0, #ffffff); 
+    color: #000000; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    text-decoration: none; 
+    transition: background 0.3s ease; 
   }
   
   .boton-flotante:hover {
-    background: linear-gradient(to right, #ffffff, #c0c0c0); /* Cambio de gradiente al pasar el mouse */
+    background: linear-gradient(to right, #ffffff, #c0c0c0); 
   }
   
 
@@ -104,7 +104,7 @@ header {
   }
   
   button[type="button"] {
-    background: linear-gradient(to bottom, #ff4d4d, #990000); /* Gradiente de rojo a oscuro */
+    background: linear-gradient(to bottom, #ff4d4d, #990000); 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -114,7 +114,7 @@ header {
   }
   
   button[type="button"]:hover {
-    background: linear-gradient(to bottom, #ff3333, #660000); /* Gradiente de rojo a más oscuro */
+    background: linear-gradient(to bottom, #ff3333, #660000); 
   }
   
 

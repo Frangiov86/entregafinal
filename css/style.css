@@ -29,50 +29,33 @@ body {
 
 header {
   background-image: linear-gradient(to right, red, black);
-  padding: 20px 0;
-  /* Espacio interno alrededor del encabezado */ }
+  padding: 20px 0; }
 
 .container1 {
   max-width: 1440px;
-  /* Ancho máximo del contenedor */
   margin: 0 auto;
-  /* Centra el contenedor */
-  text-align: center;
-  /* Centra horizontalmente el contenido dentro del contenedor */ }
+  text-align: center; }
 
 .header-img {
   width: 100%;
-  /* La imagen ocupa todo el ancho del contenedor */
   height: auto;
-  /* Altura automática para mantener la proporción */
   margin-top: 20px; }
 
 .boton-flotante {
   position: fixed;
   bottom: 20px;
-  /* Distancia desde el borde inferior */
   right: 20px;
-  /* Distancia desde el borde derecho */
   background: linear-gradient(to right, #c0c0c0, #ffffff);
-  /* Gradiente de gris plateado a blanco de izquierda a derecha */
   color: #000000;
-  /* Color del texto negro */
   font-family: Arial, sans-serif;
-  /* Fuente sin serifa */
   font-size: 16px;
-  /* Tamaño de fuente */
   padding: 10px 20px;
-  /* Espacio interno del botón */
   border-radius: 20px;
-  /* Bordes redondeados */
   text-decoration: none;
-  /* Quitar subrayado del enlace */
-  transition: background 0.3s ease;
-  /* Efecto de transición suave */ }
+  transition: background 0.3s ease; }
 
 .boton-flotante:hover {
-  background: linear-gradient(to right, #ffffff, #c0c0c0);
-  /* Cambio de gradiente al pasar el mouse */ }
+  background: linear-gradient(to right, #ffffff, #c0c0c0); }
 
 /* Estilos generales */
 .formulario {
@@ -123,7 +106,6 @@ textarea:focus {
 
 button[type="button"] {
   background: linear-gradient(to bottom, #ff4d4d, #990000);
-  /* Gradiente de rojo a oscuro */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -132,8 +114,7 @@ button[type="button"] {
   transition: background-color 0.3s ease; }
 
 button[type="button"]:hover {
-  background: linear-gradient(to bottom, #ff3333, #660000);
-  /* Gradiente de rojo a más oscuro */ }
+  background: linear-gradient(to bottom, #ff3333, #660000); }
 
 .imagenestitulos {
   display: flex;
@@ -165,22 +146,15 @@ button[type="button"]:hover {
     color: white; }
 
 .contenedor {
-  text-align: center;
-  /* Centra el texto horizontalmente */ }
+  text-align: center; }
 
 .contenedor h1 {
   font-size: 2em;
-  /* Tamaño de fuente */
   margin: 0;
-  /* Elimina el margen predeterminado del párrafo */
   padding: 10px;
-  /* Agrega un poco de espacio alrededor del texto */
   width: 80%;
-  /* Define el ancho máximo del contenedor */
   max-width: 600px;
-  /* Define el ancho máximo del contenedor */
-  margin: 0 auto;
-  /* Centra el contenedor horizontalmente */ }
+  margin: 0 auto; }
 
 .cuadrotextoimagen {
   display: flex;
@@ -205,20 +179,14 @@ button[type="button"]:hover {
 .columna {
   flex: 1;
   padding: 20px;
-  box-sizing: border-box;
-  /* Incluye el padding en el ancho total de la columna */ }
+  box-sizing: border-box; }
 
 iframe {
   width: 100%;
-  /* Establece el ancho al 100% del contenedor */
   height: auto;
-  /* Hace que la altura se ajuste automáticamente manteniendo la relación de aspecto */
   max-width: 800px;
-  /* Establece un máximo ancho para el video */
   margin: 0 auto;
-  /* Centra el video horizontalmente */
-  display: block;
-  /* Asegura que el iframe se muestre como un bloque */ }
+  display: block; }
 
 h5 {
   font-family: Arial, Helvetica, sans-serif;
@@ -243,9 +211,7 @@ h5 {
 .image-container {
   position: relative;
   width: calc(33.33% - 10px);
-  /* Ancho de cada imagen con un margen entre ellas */
-  margin-bottom: 20px;
-  /* Espacio entre filas */ }
+  margin-bottom: 20px; }
   .image-container img {
     width: 100%;
     height: auto;
@@ -272,9 +238,7 @@ h5 {
 .image-container3 {
   position: relative;
   width: calc(33.33% - 10px);
-  /* Ancho de cada imagen con un margen entre ellas */
-  margin-bottom: 20px;
-  /* Espacio entre filas */ }
+  margin-bottom: 20px; }
   .image-container3 img {
     width: 100%;
     height: auto;
@@ -300,8 +264,7 @@ h5 {
 
 @media screen and (max-width: 1441px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
   iframe {
     width: 440px;
     height: 200px;
@@ -320,9 +283,7 @@ h5 {
   .image-container {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 30px;
-    /* Espacio entre filas */ }
+    margin-bottom: 30px; }
     .image-container img {
       width: 100%;
       height: auto;
@@ -345,9 +306,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 380px;
       height: auto;
@@ -383,9 +342,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 245px;
       height: auto;
@@ -413,9 +370,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 350px;
       height: auto;
@@ -442,8 +397,7 @@ h5 {
 
 @media screen and (max-width: 1024px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
     .image-container img {
       width: 50%;
       height: auto;
@@ -474,9 +428,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 550px;
       height: auto;
@@ -503,9 +455,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 200px;
       height: auto;
@@ -533,9 +483,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 650px;
       height: auto;
@@ -563,8 +511,7 @@ h5 {
 
 @media screen and (max-width: 768px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
     .image-container img {
       width: 50%;
       height: auto;
@@ -585,8 +532,7 @@ h5 {
     margin-left: 200px;
     font-size: 10px; }
   .contenedor p {
-    font-size: 1.5em;
-    /* Tamaño de fuente más pequeño para pantallas más pequeñas */ }
+    font-size: 1.5em; }
   .imagenestitulos {
     display: flex;
     flex-direction: row;
@@ -604,9 +550,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 450px;
       height: auto;
@@ -635,9 +579,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 250px;
       height: auto;
@@ -665,9 +607,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 500px;
       height: auto;
@@ -695,8 +635,7 @@ h5 {
 
 @media screen and (max-width: 426px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
     .image-container img {
       width: 50%;
       height: auto;
@@ -719,9 +658,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 250px;
       height: auto;
@@ -756,9 +693,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 200px;
       height: auto;
@@ -786,9 +721,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 250px;
       height: auto;
@@ -816,8 +749,7 @@ h5 {
 
 @media screen and (max-width: 376px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
     .image-container img {
       width: 50%;
       height: auto;
@@ -840,9 +772,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 200px;
       height: auto;
@@ -885,9 +815,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 200px;
       height: auto;
@@ -915,9 +843,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 250px;
       height: auto;
@@ -945,8 +871,7 @@ h5 {
 
 @media screen and (max-width: 321px) {
   .image-container {
-    width: 100%;
-    /* Una imagen por fila en dispositivos móviles */ }
+    width: 100%; }
   .image-container img {
     width: 50%;
     height: auto;
@@ -969,9 +894,7 @@ h5 {
   .image-container3 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container3 img {
       width: 200px;
       height: auto;
@@ -1012,9 +935,7 @@ h5 {
   .image-container5 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container5 img {
       width: 200px;
       height: auto;
@@ -1042,9 +963,7 @@ h5 {
   .image-container6 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container6 img {
       width: 250px;
       height: auto;
@@ -1086,35 +1005,6 @@ h5 {
   background-color: black;
   color: #fff; }
 
-.navbarindex {
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
-  /* Gradiente de colores de izquierda a derecha */ }
-
-.navbarindex ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex; }
-
-.navbarindex li {
-  flex: 1; }
-
-.navbarindex a {
-  display: block;
-  text-align: center;
-  padding: 20px 0;
-  text-decoration: none;
-  color: white;
-  /* Color del texto */
-  transition: background-color 0.3s, color 0.3s;
-  /* Transición suave */ }
-
-.navbarindex a:hover {
-  background-color: black;
-  /* Cambia el color de fondo al pasar el cursor */
-  color: white;
-  /* Cambia el color del texto al pasar el cursor */ }
-
 .bodyhistoria {
   background-color: #9bbbcab9; }
 
@@ -1131,9 +1021,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 400px;
     height: auto;
@@ -1162,9 +1050,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 430px;
     height: auto;
@@ -1195,9 +1081,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 400px;
     height: auto;
@@ -1226,9 +1110,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 430px;
     height: auto;
@@ -1257,9 +1139,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 430px;
     height: auto;
@@ -1288,9 +1168,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 430px;
     height: auto;
@@ -1321,9 +1199,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 400px;
     height: auto;
@@ -1352,9 +1228,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 430px;
     height: auto;
@@ -1385,9 +1259,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 250px;
     height: auto;
@@ -1416,9 +1288,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 250px;
     height: auto;
@@ -1449,9 +1319,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 250px;
     height: auto;
@@ -1480,9 +1348,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 250px;
     height: auto;
@@ -1513,9 +1379,7 @@ h1 {
   .image-container11 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container11 img {
     width: 250px;
     height: auto;
@@ -1544,9 +1408,7 @@ h1 {
   .image-container12 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container12 img {
     width: 250px;
     height: auto;
@@ -1575,9 +1437,7 @@ h1 {
   .image-container13 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container13 img {
     width: 250px;
     height: auto;
@@ -1608,9 +1468,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 500px;
       height: auto;
@@ -1639,9 +1497,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 440px;
       height: auto;
@@ -1670,9 +1526,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 img {
       width: 370px;
       height: auto;
@@ -1701,9 +1555,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container17 img {
       width: 390px;
       height: auto;
@@ -1734,9 +1586,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 400px;
       height: auto;
@@ -1765,9 +1615,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 440px;
       height: auto;
@@ -1796,9 +1644,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 img {
       width: 370px;
       height: auto;
@@ -1827,9 +1673,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container17 img {
       width: 390px;
       height: auto;
@@ -1860,9 +1704,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 300px;
       height: auto;
@@ -1891,9 +1733,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 350px;
       height: auto;
@@ -1922,9 +1762,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 .img {
       width: 370px;
       height: auto;
@@ -1953,9 +1791,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container17 .image-container17 img {
       width: 390px;
       height: auto;
@@ -1986,9 +1822,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 250px;
       height: auto;
@@ -2017,9 +1851,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 250px;
       height: auto;
@@ -2048,9 +1880,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 img {
       width: 250px;
       height: auto;
@@ -2079,9 +1909,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container17 img {
       width: 250px;
       height: auto;
@@ -2112,9 +1940,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 250px;
       height: auto;
@@ -2143,9 +1969,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 250px;
       height: auto;
@@ -2174,9 +1998,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 img {
       width: 250px;
       height: auto;
@@ -2205,9 +2027,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
   .image-container17 img {
     width: 250px;
     height: auto;
@@ -2238,9 +2058,7 @@ h1 {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container14 img {
       width: 250px;
       height: auto;
@@ -2269,9 +2087,7 @@ h1 {
   .image-container15 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container15 img {
       width: 250px;
       height: auto;
@@ -2300,9 +2116,7 @@ h1 {
   .image-container16 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container16 img {
       width: 250px;
       height: auto;
@@ -2331,9 +2145,7 @@ h1 {
   .image-container17 {
     position: relative;
     width: calc(33.33% - 10px);
-    /* Ancho de cada imagen con un margen entre ellas */
-    margin-bottom: 20px;
-    /* Espacio entre filas */ }
+    margin-bottom: 20px; }
     .image-container17 img {
       width: 250px;
       height: auto;
@@ -2417,9 +2229,7 @@ h1 {
     background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%); }
   .social-icons img {
     width: 25px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 25px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 70px;
     align-items: center; }
   .h2text {
@@ -2482,9 +2292,7 @@ h1 {
     background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%); }
   .social-icons img {
     width: 15px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 15px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 65px;
     align-items: center; }
   .h2text {
@@ -2537,9 +2345,7 @@ h1 {
     width: fit-content; }
   .social-icons img {
     width: 15px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 15px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 40px; } }
 
 @media (max-width: 426px) {
@@ -2568,9 +2374,7 @@ h1 {
     margin-left: 80px; }
   .social-icons img {
     width: 20px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 20px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 80px; }
   .h2text {
     font-size: 15px; }
@@ -2620,9 +2424,7 @@ h1 {
     background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%); }
   .social-icons img {
     width: 30px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 30px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 77px;
     margin-bottom: 20px; } }
 
@@ -2677,9 +2479,7 @@ h1 {
     background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%); }
   .social-icons img {
     width: 30px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 30px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 65px; } }
 
 @media (max-width: 321px) {
@@ -2729,9 +2529,7 @@ h1 {
     background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%); }
   .social-icons img {
     width: 30px;
-    /* Establece el mismo ancho para todos los íconos */
     height: 30px;
-    /* Establece la misma altura para todos los íconos */
     margin-left: 50px; } }
 
 .universoh1 {
