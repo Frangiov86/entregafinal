@@ -1,4 +1,4 @@
-@media screen and (max-width: 1445px) {
+@media screen and (max-width: 1440px) {
 
     .image-container14 {
         position: relative;
@@ -8,17 +8,15 @@
         /* Espacio entre filas */
 
         img {
-            width: 600px;
+            width: 500px;
             height: auto;
             transition: transform 0.3s ease;
             margin-left: 50px;
-            margin-bottom: 13px;
+            margin-bottom: -9px;
             margin-top: 25px;
-
         }
 
     }
-
 
     .image-container14 .overlay {
         position: absolute;
@@ -33,7 +31,7 @@
         transition: opacity 0.3s ease;
         margin-left: 100px;
         font-size: 18px;
-        margin-bottom: -6px;
+        margin-bottom: -37px;
     }
 
     .image-container14:hover .overlay {

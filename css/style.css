@@ -47,20 +47,100 @@ header {
   /* Altura automática para mantener la proporción */
   margin-top: 20px; }
 
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  /* Distancia desde el borde inferior */
+  right: 20px;
+  /* Distancia desde el borde derecho */
+  background: linear-gradient(to right, #c0c0c0, #ffffff);
+  /* Gradiente de gris plateado a blanco de izquierda a derecha */
+  color: #000000;
+  /* Color del texto negro */
+  font-family: Arial, sans-serif;
+  /* Fuente sin serifa */
+  font-size: 16px;
+  /* Tamaño de fuente */
+  padding: 10px 20px;
+  /* Espacio interno del botón */
+  border-radius: 20px;
+  /* Bordes redondeados */
+  text-decoration: none;
+  /* Quitar subrayado del enlace */
+  transition: background 0.3s ease;
+  /* Efecto de transición suave */ }
+
+.boton-flotante:hover {
+  background: linear-gradient(to right, #ffffff, #c0c0c0);
+  /* Cambio de gradiente al pasar el mouse */ }
+
+/* Estilos generales */
+.formulario {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.formularioi {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.form-group {
+  margin-bottom: 20px; }
+
+label {
+  display: block;
+  font-weight: bold; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; }
+
+textarea {
+  height: 100px; }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4caf50; }
+
+button[type="button"] {
+  background: linear-gradient(to bottom, #ff4d4d, #990000);
+  /* Gradiente de rojo a oscuro */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; }
+
+button[type="button"]:hover {
+  background: linear-gradient(to bottom, #ff3333, #660000);
+  /* Gradiente de rojo a más oscuro */ }
+
 .imagenestitulos {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center; }
-
-.cuadrotextoimagen img {
-  height: 500px; }
-
-.cuadrotextoimagen h3 {
-  font-family: "Bree+Serif", serif;
-  font-size: 30px;
-  margin-bottom: 30px; }
 
 .cuadrotextoimagen {
   display: flex;
@@ -71,6 +151,12 @@ header {
   border-radius: 20px;
   padding: 20px;
   margin: 20px; }
+  .cuadrotextoimagen h3 {
+    font-family: "Bree+Serif", serif;
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .cuadrotextoimagen img {
+    height: 500px; }
 
 .parrafopersonajes {
   background-color: black;
@@ -160,11 +246,10 @@ h5 {
   /* Ancho de cada imagen con un margen entre ellas */
   margin-bottom: 20px;
   /* Espacio entre filas */ }
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease; }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; }
 
 .image-container .overlay {
   position: absolute;
@@ -190,11 +275,10 @@ h5 {
   /* Ancho de cada imagen con un margen entre ellas */
   margin-bottom: 20px;
   /* Espacio entre filas */ }
-
-.image-container3 img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease; }
+  .image-container3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; }
 
 .image-container3 .overlay {
   position: absolute;
@@ -239,12 +323,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 30px;
     /* Espacio entre filas */ }
-  .image-container img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-top: 20px;
-    margin-left: -65px; }
+    .image-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-top: 20px;
+      margin-left: -65px; }
   .image-container .overlay {
     position: absolute;
     bottom: 0;
@@ -264,12 +348,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 380px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: -45px;
-    margin-top: 20px; }
+    .image-container3 img {
+      width: 380px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: -45px;
+      margin-top: 20px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -302,12 +386,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 245px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 120px;
-    margin-top: 20px; }
+    .image-container5 img {
+      width: 245px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 120px;
+      margin-top: 20px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -332,11 +416,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 350px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 350px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -360,6 +444,12 @@ h5 {
   .image-container {
     width: 100%;
     /* Una imagen por fila en dispositivos móviles */ }
+    .image-container img {
+      width: 50%;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 200px;
+      margin-top: 20px; }
   iframe {
     width: 400px;
     height: 200px;
@@ -367,12 +457,6 @@ h5 {
     margin: 0 auto;
     display: block;
     margin-left: 40px; }
-  .image-container img {
-    width: 50%;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 200px;
-    margin-top: 20px; }
   .image-container .overlay {
     position: absolute;
     bottom: 0;
@@ -393,11 +477,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 550px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 160px; }
+    .image-container3 img {
+      width: 550px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 160px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -422,12 +506,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 80px;
-    margin-top: 20px; }
+    .image-container5 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 80px;
+      margin-top: 20px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -452,12 +536,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 650px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 130px;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 650px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 130px;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -481,12 +565,12 @@ h5 {
   .image-container {
     width: 100%;
     /* Una imagen por fila en dispositivos móviles */ }
-  .image-container img {
-    width: 50%;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 200px;
-    margin-top: 20px; }
+    .image-container img {
+      width: 50%;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 200px;
+      margin-top: 20px; }
   .image-container .overlay {
     position: absolute;
     bottom: 0;
@@ -523,11 +607,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 450px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 160px; }
+    .image-container3 img {
+      width: 450px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 160px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -554,12 +638,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 50px;
-    margin-top: 80px; }
+    .image-container5 img {
+      width: 250px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 50px;
+      margin-top: 80px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -584,12 +668,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 500px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 130px;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 500px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 130px;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -613,12 +697,12 @@ h5 {
   .image-container {
     width: 100%;
     /* Una imagen por fila en dispositivos móviles */ }
-  .image-container img {
-    width: 50%;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 100px;
-    margin-top: 20px; }
+    .image-container img {
+      width: 50%;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 100px;
+      margin-top: 20px; }
   .image-container .overlay {
     position: absolute;
     bottom: 0;
@@ -638,11 +722,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 75px; }
+    .image-container3 img {
+      width: 250px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 75px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -675,12 +759,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 100px;
-    margin-bottom: 100px; }
+    .image-container5 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 100px;
+      margin-bottom: 100px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -705,12 +789,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 80px;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 250px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 80px;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -734,11 +818,11 @@ h5 {
   .image-container {
     width: 100%;
     /* Una imagen por fila en dispositivos móviles */ }
-  .image-container img {
-    width: 50%;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 80px; }
+    .image-container img {
+      width: 50%;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 80px; }
   .image-container .overlay {
     position: absolute;
     bottom: 0;
@@ -759,11 +843,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 75px; }
+    .image-container3 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 75px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -804,12 +888,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 80px;
-    margin-bottom: 100px; }
+    .image-container5 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 80px;
+      margin-bottom: 100px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -834,12 +918,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 60px;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 250px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 60px;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -888,11 +972,11 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container3 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 60px; }
+    .image-container3 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 60px; }
   .image-container3 .overlay {
     position: absolute;
     bottom: 0;
@@ -931,12 +1015,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container5 img {
-    width: 200px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 60px;
-    margin-bottom: 120px; }
+    .image-container5 img {
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 60px;
+      margin-bottom: 120px; }
   .image-container5 .overlay {
     position: absolute;
     bottom: 0;
@@ -961,12 +1045,12 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */ }
-  .image-container6 img {
-    width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-    margin-left: 35px;
-    margin-bottom: 120px; }
+    .image-container6 img {
+      width: 250px;
+      height: auto;
+      transition: transform 0.3s ease;
+      margin-left: 35px;
+      margin-bottom: 120px; }
   .image-container6 .overlay {
     position: absolute;
     bottom: 0;
@@ -1520,7 +1604,7 @@ h1 {
   .image-container13:target img {
     transform: scale(1.1); } }
 
-@media screen and (max-width: 1445px) {
+@media screen and (max-width: 1440px) {
   .image-container14 {
     position: relative;
     width: calc(33.33% - 10px);
@@ -1528,11 +1612,11 @@ h1 {
     margin-bottom: 20px;
     /* Espacio entre filas */ }
     .image-container14 img {
-      width: 600px;
+      width: 500px;
       height: auto;
       transition: transform 0.3s ease;
       margin-left: 50px;
-      margin-bottom: 13px;
+      margin-bottom: -9px;
       margin-top: 25px; }
   .image-container14 .overlay {
     position: absolute;
@@ -1547,7 +1631,7 @@ h1 {
     transition: opacity 0.3s ease;
     margin-left: 100px;
     font-size: 18px;
-    margin-bottom: -6px; }
+    margin-bottom: -37px; }
   .image-container14:hover .overlay {
     opacity: 1; }
   .image-container14:target img {

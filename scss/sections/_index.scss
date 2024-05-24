@@ -25,3 +25,97 @@ header {
     
 }
 
+.boton-flotante {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el borde inferior */
+    right: 20px; /* Distancia desde el borde derecho */
+    background: linear-gradient(to right, #c0c0c0, #ffffff); /* Gradiente de gris plateado a blanco de izquierda a derecha */
+    color: #000000; /* Color del texto negro */
+    font-family: Arial, sans-serif; /* Fuente sin serifa */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border-radius: 20px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    transition: background 0.3s ease; /* Efecto de transición suave */
+  }
+  
+  .boton-flotante:hover {
+    background: linear-gradient(to right, #ffffff, #c0c0c0); /* Cambio de gradiente al pasar el mouse */
+  }
+  
+
+
+//   ---formulario-----------------------------------//
+
+/* Estilos generales */
+
+.formulario {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formularioi {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #4caf50;
+  }
+  
+  button[type="button"] {
+    background: linear-gradient(to bottom, #ff4d4d, #990000); /* Gradiente de rojo a oscuro */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="button"]:hover {
+    background: linear-gradient(to bottom, #ff3333, #660000); /* Gradiente de rojo a más oscuro */
+  }
+  
+
+

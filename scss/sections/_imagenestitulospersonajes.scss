@@ -7,19 +7,7 @@
 
 }
 
-.cuadrotextoimagen img {
-    height: 500px;
 
-}
-
-
-.cuadrotextoimagen h3 {
-    font-family: "Bree+Serif", serif;
-    font-size: 30px;
-    margin-bottom: 30px;
-
-
-}
 
 .cuadrotextoimagen {
     display: flex;
@@ -30,6 +18,19 @@
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
+
+    h3 {
+        font-family: "Bree+Serif", serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+    
+    
+    }
+          img {
+            height: 500px;
+    
+             }
+
 }
 
 .parrafopersonajes {
@@ -143,13 +144,17 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */
+
+    img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+
 }
 
-.image-container img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
+
 
 .image-container .overlay {
     position: absolute;
@@ -180,13 +185,17 @@ h5 {
     /* Ancho de cada imagen con un margen entre ellas */
     margin-bottom: 20px;
     /* Espacio entre filas */
+
+    img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+
 }
 
-.image-container3 img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
+
 
 .image-container3 .overlay {
     position: absolute;
@@ -251,16 +260,21 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 30px;
         /* Espacio entre filas */
+
+
+        img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-top: 20px;
+            margin-left: -65px;
+        }
+
+
     }
 
 
-    .image-container img {
-        width: 100%;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-top: 20px;
-        margin-left: -65px;
-    }
+
 
     .image-container .overlay {
         position: absolute;
@@ -287,16 +301,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 380px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: -45px;
+            margin-top: 20px;
+    
+        }
+
+
     }
 
-    .image-container3 img {
-        width: 380px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: -45px;
-        margin-top: 20px;
 
-    }
 
     .image-container3 .overlay {
         position: absolute;
@@ -345,16 +363,21 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 245px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 120px;
+            margin-top: 20px;
+    
+        }
+
+
+
     }
 
-    .image-container5 img {
-        width: 245px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 120px;
-        margin-top: 20px;
 
-    }
 
     .image-container5 .overlay {
         position: absolute;
@@ -387,15 +410,19 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 350px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-bottom: 120px;
+    
+        }
+
+
     }
 
-    .image-container6 img {
-        width: 350px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-bottom: 120px;
 
-    }
 
     .image-container6 .overlay {
         position: absolute;
@@ -432,6 +459,16 @@ h5 {
     .image-container {
         width: 100%;
         /* Una imagen por fila en dispositivos móviles */
+
+        img {
+            width: 50%;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+
+
     }
 
 
@@ -445,13 +482,7 @@ h5 {
 
     }
 
-    .image-container img {
-        width: 50%;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 200px;
-        margin-top: 20px;
-    }
+
 
     .image-container .overlay {
         position: absolute;
@@ -479,15 +510,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 550px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 160px;
+    
+        }
+
+
+
     }
 
-    .image-container3 img {
-        width: 550px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 160px;
-
-    }
+ 
 
     .image-container3 .overlay {
         position: absolute;
@@ -520,16 +556,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 80px;
+            margin-top: 20px;
+    
+        }
+
+
     }
 
-    .image-container5 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 80px;
-        margin-top: 20px;
 
-    }
 
     .image-container5 .overlay {
         position: absolute;
@@ -562,16 +602,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 650px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 130px;
+            margin-bottom: 120px;
+    
+        }
+
+
     }
 
-    .image-container6 img {
-        width: 650px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 130px;
-        margin-bottom: 120px;
-
-    }
+ 
 
     .image-container6 .overlay {
         position: absolute;
@@ -611,16 +655,20 @@ h5 {
     .image-container {
         width: 100%;
         /* Una imagen por fila en dispositivos móviles */
+
+
+        img {
+            width: 50%;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+
     }
 
 
-    .image-container img {
-        width: 50%;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 200px;
-        margin-top: 20px;
-    }
+
 
     .image-container .overlay {
         position: absolute;
@@ -675,15 +723,19 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 450px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 160px;
+    
+        }
+
+
     }
 
-    .image-container3 img {
-        width: 450px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 160px;
 
-    }
 
     .image-container3 .overlay {
         position: absolute;
@@ -725,16 +777,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 50px;
+            margin-top: 80px;
+    
+        }
+
+
     }
 
-    .image-container5 img {
-        width: 250px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 50px;
-        margin-top: 80px;
-
-    }
+ 
 
     .image-container5 .overlay {
         position: absolute;
@@ -768,16 +824,21 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 500px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 130px;
+            margin-bottom: 120px;
+    
+        }
+
+
+
     }
 
-    .image-container6 img {
-        width: 500px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 130px;
-        margin-bottom: 120px;
 
-    }
 
     .image-container6 .overlay {
         position: absolute;
@@ -817,16 +878,20 @@ h5 {
     .image-container {
         width: 100%;
         /* Una imagen por fila en dispositivos móviles */
+
+        img {
+            width: 50%;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+
+
     }
 
 
-    .image-container img {
-        width: 50%;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 100px;
-        margin-top: 20px;
-    }
+
 
     .image-container .overlay {
         position: absolute;
@@ -852,15 +917,21 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 75px;
+    
+        }
+
+
+
+
     }
 
-    .image-container3 img {
-        width: 250px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 75px;
 
-    }
 
     .image-container3 .overlay {
         position: absolute;
@@ -908,15 +979,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 100px;
+            margin-bottom: 100px;
+        }
+
+
+
     }
 
-    .image-container5 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 100px;
-        margin-bottom: 100px;
-    }
+
 
     .image-container5 .overlay {
         position: absolute;
@@ -950,16 +1026,20 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 80px;
+            margin-bottom: 120px;
+    
+        }
+
+
     }
 
-    .image-container6 img {
-        width: 250px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 80px;
-        margin-bottom: 120px;
 
-    }
 
     .image-container6 .overlay {
         position: absolute;
@@ -993,15 +1073,20 @@ h5 {
     .image-container {
         width: 100%;
         /* Una imagen por fila en dispositivos móviles */
+
+        img {
+            width: 50%;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 80px;
+        }
+
+
+
     }
 
 
-    .image-container img {
-        width: 50%;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 80px;
-    }
+
 
     .image-container .overlay {
         position: absolute;
@@ -1028,15 +1113,19 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 75px;
+    
+        }
+
+
     }
 
-    .image-container3 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 75px;
 
-    }
 
     .image-container3 .overlay {
         position: absolute;
@@ -1095,14 +1184,18 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 80px;
+            margin-bottom: 100px;
+        
+
     }
 
-    .image-container5 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 80px;
-        margin-bottom: 100px;
+
 
     }
 
@@ -1138,16 +1231,19 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 60px;
+            margin-bottom: 120px;
+    
+        }
+
+
     }
 
-    .image-container6 img {
-        width: 250px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 60px;
-        margin-bottom: 120px;
 
-    }
 
     .image-container6 .overlay {
         position: absolute;
@@ -1219,13 +1315,17 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
-    }
 
-    .image-container3 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 60px;
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 60px;
+
+
+        }
+
+
 
     }
 
@@ -1291,14 +1391,16 @@ h5 {
         /* Ancho de cada imagen con un margen entre ellas */
         margin-bottom: 20px;
         /* Espacio entre filas */
-    }
 
-    .image-container5 img {
-        width: 200px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 60px;
-        margin-bottom: 120px;
+        img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 60px;
+            margin-bottom: 120px;
+        }
+
+
 
     }
 
@@ -1336,14 +1438,16 @@ h5 {
         margin-bottom: 20px;
         /* Espacio entre filas */
 
-    }
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease;
+            margin-left: 35px;
+            margin-bottom: 120px;
 
-    .image-container6 img {
-        width: 250px;
-        height: auto;
-        transition: transform 0.3s ease;
-        margin-left: 35px;
-        margin-bottom: 120px;
+        }
+
+
 
     }
 
