@@ -1,4 +1,4 @@
-@media (max-width:1441px) {
+@media (min-width:1440px) and (max-width:2800px) {
 
 
     div p {
@@ -9,6 +9,8 @@
     }
 
     .texto p {
+        
+        max-width: 100%;
         font-family: Asushin;
         font-size: 100px;
         text-align: center;
@@ -16,7 +18,7 @@
         width: 250px;
         height: fit-content;
         margin-top: 20px;
-        margin-left: 500px;
+        margin: auto;
         background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
 
     }
@@ -116,7 +118,7 @@
 
 
 
-@media (max-width:1024px) {
+@media (min-width:1024px) and (max-width:1440px){
 
 
   
@@ -226,7 +228,7 @@
 
 
 
-@media (max-width:769px) {
+@media (min-width:769px) and (max-width: 1024px) {
 
     .texto p {
         font-family: Asushin;
@@ -303,9 +305,18 @@
 
 }
 
-@media (max-width:426px) {
+@media (min-width:426px) and (max-width:769px) {
 
+    div p {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 13px;
 
+    }
+   
+   
+   
+   
     .texto p {
         font-family: Asushin;
         font-size: 60px;
@@ -444,7 +455,7 @@
 
 
 
-@media (max-width:376px) {
+@media (min-width:376px) and (max-width:425px){
 
 
 
@@ -528,7 +539,7 @@
 
 
     .social-icons img {
-
+        max-width: 100%;
         width: 30px;
         height: 30px;
         margin-left: 65px;
@@ -539,8 +550,18 @@
 
 }
 
-@media (max-width:321px) {
+@media (min-width:150px) and (max-width:376px){
 
+    div p {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 13px;
+
+    }
+   
+   
+   
+   
     .texto p {
         font-family: Asushin;
         font-size: 45px;

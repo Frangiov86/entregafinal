@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) {
+@media (min-width:1440px) and (max-width:2800px) {
 
     .image-container14 {
         position: relative;
@@ -182,7 +182,7 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media (min-width:1024px) and (max-width:1440px) {
 
 
     .image-container14 {
@@ -373,7 +373,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media (min-width:769px) and (max-width: 1024px) {
 
     .image-container14 {
         position: relative;
@@ -569,7 +569,7 @@
 
 
 
-@media screen and (max-width: 425px) {
+@media (min-width:426px) and (max-width:769px) {
 
     .image-container14 {
         position: relative;
@@ -764,7 +764,7 @@
 
 
 
-@media screen and (max-width: 375px) {
+@media (min-width:376px) and (max-width:425px) {
 
 
     .image-container14 {
@@ -945,19 +945,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 321px) {
+@media (min-width:150px) and (max-width:376px) {
 
 
     .image-container14 {

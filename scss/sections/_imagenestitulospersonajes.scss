@@ -205,7 +205,7 @@ h5 {
 
 // <<<Responsive de pagina personajes>>>//
 
-@media screen and (max-width: 1441px) {
+@media (min-width:1440px) and (max-width:2800px)  {
     .image-container {
         width: 100%;
     }
@@ -425,10 +425,7 @@ h5 {
 }
 
 
-
-
-
-@media screen and (max-width: 1024px) {
+@media (min-width:1024px) and (max-width:1440px) {
     .image-container {
         width: 100%;
 
@@ -617,7 +614,7 @@ h5 {
 
 
 
-@media screen and (max-width: 768px) {
+@media (min-width:769px) and (max-width: 1024px) {
     .image-container {
         width: 100%;
 
@@ -831,7 +828,7 @@ h5 {
 
 
 
-@media screen and (max-width: 426px) {
+@media (min-width:426px) and (max-width:769px) {
     .image-container {
         width: 100%;
  
@@ -1019,7 +1016,7 @@ h5 {
 
 }
 
-@media screen and (max-width: 376px) {
+@media (min-width:376px) and (max-width:425px) {
     .image-container {
         width: 100%;
 
@@ -1220,7 +1217,7 @@ h5 {
 
 
 
-@media screen and (max-width: 321px) {
+@media (min-width:150px) and (max-width:376px) {
     .image-container {
         width: 100%;
     }
